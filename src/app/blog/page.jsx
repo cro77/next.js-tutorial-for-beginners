@@ -4,7 +4,7 @@ import styles from './blog.module.css';
 
 // dohvat podataka s API
 const dohvatiPodatke = async () => {
-  const odgovor = await fetch("http://localhost:3000/api/blog", {next:{revalidate: 3600}});
+  const odgovor = await fetch("http://localhost:10000/api/blog", {next:{revalidate: 3600}});
 
   if(!odgovor.ok) {
     throw new Error("Greška")
