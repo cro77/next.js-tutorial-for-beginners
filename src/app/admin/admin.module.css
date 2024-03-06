@@ -1,0 +1,33 @@
+.spremnik {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.red {
+  display: flex;
+  gap: 100px;
+}
+
+.red h1{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.stupac {
+  flex: 1;
+}
+
+.stupac img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+
+  .red {
+    flex-direction: column;
+  }
+
+}

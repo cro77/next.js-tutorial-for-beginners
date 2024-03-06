@@ -1,0 +1,23 @@
+.obrazac {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.obrazac input {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--pozadinaMekana);
+  color: var(--tekst);
+}
+
+.obrazac button {
+  padding: 20px;
+  background-color: var(--gumb);
+  color: var(--tekst);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}

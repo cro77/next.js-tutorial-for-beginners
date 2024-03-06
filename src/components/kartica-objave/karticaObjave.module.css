@@ -1,0 +1,43 @@
+.spremnik {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.vrh {
+  display: flex;
+}
+
+.slikaSpremnik {
+  width: 90%;
+  height: 400px;
+  position: relative;
+}
+
+.slika {
+  object-fit: cover;
+}
+
+.datum {
+  font-size: 12px;
+  transform: rotate(270deg);
+  margin: auto;
+}
+
+.naslov {
+  width: 90%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.opis {
+  width: 90%;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: gray;
+}
+
+.poveznica {
+  text-decoration: underline;
+}

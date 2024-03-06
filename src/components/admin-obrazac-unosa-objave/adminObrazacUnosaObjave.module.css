@@ -1,0 +1,24 @@
+.spremnik {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.spremnik input,
+.spremnik textarea {
+  padding: 20px;
+  background-color: var(--pozadinaMekana);
+  border: none;
+  border-radius: 5px;
+  color: var(--tekst);
+}
+
+.spremnik button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--gumb);
+  border: none;
+  border-radius: 5px;
+  color: var(--tekst);
+  font-weight: bold;
+}

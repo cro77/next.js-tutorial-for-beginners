@@ -1,0 +1,52 @@
+.spremnik {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.slikaSpremnik {
+  flex: 1;
+  position: relative;
+  height: 500px;
+}
+
+.slika {
+  object-fit: contain;
+}
+
+.obrazacSpremnik {
+  flex: 1;
+}
+
+.obrazac {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.obrazac input, .obrazac textarea {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--pozadinaMekana);
+  color: var(--tekst);
+}
+
+.obrazac button {
+  padding: 20px;
+  background-color: var(--gumb);
+  color: var(--tekst);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+
+  .spremnik {
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,62 @@
+.spremnik {
+  display: flex;
+  gap: 100px;
+}
+
+.slikaSpremnik {
+  flex: 1;
+  position: relative;
+  height: calc(100vh - 200px);
+}
+
+.slika {
+  object-fit: cover;
+}
+
+.tekstSpremnik {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.naslov {
+  font-size: 48px;
+}
+
+.detalji {
+  display: flex;
+  gap: 20px;
+}
+
+.detaljiTekst {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detaljNaslov {
+  color: gray;
+  font-weight: bold;
+}
+
+.detaljVrijednost {
+  font-weight: 500;
+}
+
+.sadrzaj {
+  font-size: 18px;
+}
+
+
+@media (max-width:768px) {
+
+  .slikaSpremnik {
+    display: none;
+  }
+
+  .tekstSpremnik {
+    align-items: center;
+  }
+
+}

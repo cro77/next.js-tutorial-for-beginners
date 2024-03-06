@@ -1,0 +1,27 @@
+.spremnik {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.objava {
+  width: 30%;
+}
+
+
+@media (max-width:1280px) {
+  
+  .objava {
+    width: 45%;
+  }
+
+}
+
+
+@media (max-width:768px) {
+
+  .objava {
+    width: 100%;
+  }
+  
+}

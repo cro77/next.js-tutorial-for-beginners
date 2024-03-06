@@ -1,0 +1,69 @@
+.spremnik {
+  display: flex;
+  gap: 87px;
+}
+
+.tekstSpremnik {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.podnaslov {
+  color: var(--gumb);
+}
+
+.naslov {
+  font-size: 24px;
+}
+
+.opis {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.kutije {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kutija {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.kutija h1 {
+  color: var(--gumb);
+  font-size: 20px;
+}
+
+.kutija p {
+  font-size: 14px;
+}
+
+.slikaSpremnik {
+  flex: 1;
+  position: relative;
+}
+
+.slika {
+  object-fit: contain;
+}
+
+
+@media (max-width:768px) {
+
+  .spremnik {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .kutije {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+}

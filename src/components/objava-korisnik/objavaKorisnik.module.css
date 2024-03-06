@@ -1,0 +1,25 @@
+.spremnik {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.slikaKorisnika {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tekstovi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.naslov {
+  color: gray;
+  font-weight: bold;
+}
+
+.korisnickoIme {
+  font-weight: 500;
+}

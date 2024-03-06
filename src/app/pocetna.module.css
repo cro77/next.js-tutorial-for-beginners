@@ -1,0 +1,67 @@
+.spremnik {
+  display: flex;
+  gap: 100px;
+}
+
+.tekstSpremnik {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.naslov {
+  font-size: 37px;
+}
+
+.opis {
+  font-size: 17px;
+}
+
+.gumbi {
+  display: flex;
+  gap: 20px;
+}
+
+.gumb {
+  padding: 20px;
+  min-width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.gumb:first-child {
+  background-color: var(--gumb);
+  color: var(--tekst);
+}
+
+.brendovi {
+  width: 450px;
+  height: 50px;
+  position: relative;
+  filter: grayscale(1);
+}
+
+.slikaSpremnik {
+  flex: 1;
+  position: relative;
+}
+
+
+@media (max-width:768px) {
+
+  .spremnik {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .gumbi {
+    justify-content: center;
+  }
+
+  .brendovi {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,12 @@
+.spremnik {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.aktivna {
+  background-color: var(--tekst);
+  color: var(--pozadina);
+}
