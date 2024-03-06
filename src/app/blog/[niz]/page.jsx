@@ -7,7 +7,7 @@ import { dohvatiObjavu } from '@/lib/podaci';
 
 // dohvat podataka s API
 const dohvatiPodatke = async (niz) => {
-  const odgovor = await fetch(`http://localhost:3000/api/blog/${niz}`, {cache: "no-store"});
+  const odgovor = await fetch(`https://next-js-tutorial-for-beginners.onrender.com/api/blog/${niz}`, {cache: "no-store"});
 
   if(!odgovor.ok) {
     throw new Error("Greška")
